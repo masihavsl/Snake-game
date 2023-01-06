@@ -1,0 +1,29 @@
+body {
+  background-color: rgba(0, 0, 0, 0.891);
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.wrapper {
+  background-color: rgba(74, 72, 72, 0.447);
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: repeat(30, 1fr);
+  height: 900px;
+  width: 900px;
+}
+.node {
+  width: 30px;
+  height: 30px;
+  background-color: brown;
+  display: inline-block;
+  grid-column: 15;
+  grid-row: 15;
+}
+.food {
+  width: 30px;
+  height: 30px;
+  background-color: green;
+}
